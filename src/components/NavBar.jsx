@@ -20,14 +20,14 @@ function NavBar({ handelSearch }) {
       data-bs-theme="light"
     >
       <Container fluid>
-        <Col sm="1">
+        <Col sm="12" xs={12} md={1}>
           <Navbar.Brand href="/" style={{ fontWeight: "bolder" }}>
             Movies Land
           </Navbar.Brand>
         </Col>
 
         <Col></Col>
-        <Col sm="9">
+        <Col sm="12" md={9} xs={12}>
           <Form className="d-flex w-100">
             <Form.Control
               type="search"

@@ -41,16 +41,14 @@
   color: #c99e29;
 }
 .warning {
-  
   color: #c59a25;
 }
 .warning a {
-
   color: #e2b63b;
 }
 .active a {
   background: #be9830;
-   color: #bd972f;
+  color: #bd972f;
 }
 
 @media (max-width: 500px) {
@@ -60,14 +58,16 @@
   }
 
   .header::after {
-  content: "";
-  width: 250px;
-  height: 5px;
-  position: absolute;
-  top: 100px;
-  left: 115px;
-  background: #e2b63b;
-}
-
+    content: "";
+    width: 250px;
+    height: 5px;
+    position: absolute;
+    top: 130px;
+    left: 55px;
+    background: #e2b63b;
+  }
+  .Pagination-mobile {
+    width: 80%;
+  }
   
 }

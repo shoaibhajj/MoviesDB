@@ -24,6 +24,7 @@ const NewPagination = ({ updatePage, pageCount }) => {
       breakClassName={"page-item warning"}
       breakLinkClassName={"page-link warning"}
       activeClassName={"active warning-bg"}
+      className="Pagination-mobile"
     />
   );
 };
